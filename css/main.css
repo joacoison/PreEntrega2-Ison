@@ -1,0 +1,146 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:"Open Sans", sans-serif;
+    background-color: whitesmoke;
+}
+/* estilo del header */
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+header img{
+    width: 25%;
+
+}
+
+header nav ul{
+    padding-right: 30px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* enlaces */
+a{
+    color: whitesmoke;
+    background-color: firebrick;
+    border: none;
+    padding: 14px 28px;
+    display: inline-block;
+    border-radius: 10px;
+    }
+
+/* pagina principal */
+.logo{
+    width: 3%;
+    border: 1px solid darkblue;
+}
+
+.cambiar-tema{
+    position: relative;
+    width: 20px;
+    right: 670px;
+}
+
+/* titulo principal */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 450px;
+}
+.titulo{
+    text-align: center;
+}
+
+main div h3{
+    color: firebrick;
+}
+/* habilidades */
+.habilidades{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 50px;
+    
+}
+#css{
+    width: 5%;
+}
+
+#javascript{
+    width: 8%;
+}
+
+#html{
+    width: 5%;
+}
+
+/* estilos del footer */
+.footer{
+    text-align: center;
+    font-size: 10px;
+}
+
+/* seccion work */
+.work{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-1{
+    font-size: 20px;
+    color: firebrick;    
+    }
+.titulo-2{    
+    font-size: 50px;
+}
+
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+.proyectos-ejemplos{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 10px;    
+}
+
+/* seccion about */
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-1{
+    font-size: 20px;
+    color: firebrick;    
+    }
+.titulo-2{    
+    font-size: 50px;
+}
+.descripcion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+/* seccion contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+}
