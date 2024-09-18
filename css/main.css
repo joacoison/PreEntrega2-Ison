@@ -151,17 +151,14 @@ main div h3{
     flex-direction: column;
 }
 
-@media screen and (min-width: 1024px){
     
-
-.hamburguesa{
+#navbar{
     display: none;
 }
 
-}
 
 /* estilo mobile */
-@media  screen and (max-width: 800px) {
+@media  screen and (max-width: 600px) {
   
     .titulo{
         text-align: left;
@@ -185,10 +182,17 @@ main div h3{
     nav ul li a{
         display: none;
     }
-
-    .hamburguesa{
-        display: block;
-        color: black;
-        cursor: pointer;
+        
+    #navbar{
+        margin-left: 400px;
+        display: flex;
+        
+    }
+    
+    /* work */
+    .work{
+        display: block;        
+        padding: 20px;
+        box-sizing: border-box;
     }
 }
