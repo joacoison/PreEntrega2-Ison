@@ -10,7 +10,13 @@ body{
     font-family:"Open Sans", sans-serif;
     background-color: whitesmoke;
 }
-/* estilo del header */
+
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+}
+   /* estilo del header */ 
+
 header{
     height: 100px;
     display: flex;
@@ -143,4 +149,12 @@ main div h3{
 .contact{
     display: flex;
     flex-direction: column;
+}
+
+
+/* estilo mobile */
+@media  screen and (max-width: 800px) {
+    .titulo{
+        ;
+    }
 }
