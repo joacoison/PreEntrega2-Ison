@@ -38,7 +38,7 @@ header nav ul{
 }
 
 /* enlaces */
-a{
+nav ul li a{
     color: whitesmoke;
     background-color: firebrick;
     border: none;
@@ -49,7 +49,7 @@ a{
 
 /* pagina principal */
 .logo{
-    width: 3%;
+    width: 60px;
     border: 1px solid darkblue;
 }
 
@@ -151,10 +151,44 @@ main div h3{
     flex-direction: column;
 }
 
+@media screen and (min-width: 1024px){
+    
+
+.hamburguesa{
+    display: none;
+}
+
+}
 
 /* estilo mobile */
 @media  screen and (max-width: 800px) {
+  
     .titulo{
-        ;
+        text-align: left;
+        padding-right: 50px;
+    }
+    .habilidades{
+        padding-right: 50px;
+    }
+    #css{
+        width: 20%;
+    }
+    
+    #javascript{
+        width: 25%;
+    }
+    
+    #html{
+        width: 20%;
+    }
+
+    nav ul li a{
+        display: none;
+    }
+
+    .hamburguesa{
+        display: block;
+        color: black;
+        cursor: pointer;
     }
 }
